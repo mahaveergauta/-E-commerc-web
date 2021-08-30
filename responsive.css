@@ -1,0 +1,115 @@
+/*----------------------------------------
+        <!-- MEDIA QUERY FOR MENU START  -->------------------------------------------------------
+----------------------------------------*/
+@media only screen and (max-width: 800px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 1;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+}
+
+/*----------------------------------------
+        <!-- MEDIA QUERY FOR MENU END  -->------------------------------------------------------
+----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------
+        <!-- MEDIA QUERY FOR LESS THAN 600PX SCREEN SIZE START   -->------------------------------------------------------
+----------------------------------------*/
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    
+
+
+    .categories .small-container , .featured-products .small-container, .latest-products .small-container{
+        padding: 0;
+    }
+
+    
+    .categories .row .col-3,.featured-products .row .col-4, .latest-products .row .col-4{
+        flex-basis: 48%;
+        min-width: 100px;
+        margin-bottom: 5px;
+    }
+    
+
+    .col-2 h1{
+        font-size: 45px;
+        line-height: 50px;
+        margin: 20px 0;
+    }
+    
+
+    .header .row{
+        margin-top: 20px;
+    }
+
+    .col-2 .offer-img{
+        padding: 0;
+    }
+
+    .offer-img{
+        width: 150px;
+    }
+
+
+    .single-product .row{
+        text-align: left;
+    }
+
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .cart-info p{
+        display: none;
+    }
+
+    .cart-page .small-container{
+        
+    }
+}
+/*----------------------------------------
+        <!-- MEDIA QUERY FOR LESS THAN 600PX SCREEN SIZE END   -->------------------------------------------------------
+----------------------------------------*/
